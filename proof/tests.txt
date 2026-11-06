@@ -1,0 +1,14 @@
+test_changes (test_main.IntegrityTests.test_changes) ... ok
+test_empty (test_main.IntegrityTests.test_empty) ... ok
+test_external_directory_symlink_ignored (test_main.IntegrityTests.test_external_directory_symlink_ignored) ... ok
+test_large_file (test_main.IntegrityTests.test_large_file) ... ok
+test_missing_directory (test_main.IntegrityTests.test_missing_directory) ... ok
+test_nested (test_main.IntegrityTests.test_nested) ... ok
+test_sha256 (test_main.IntegrityTests.test_sha256) ... ok
+test_symlink_ignored (test_main.IntegrityTests.test_symlink_ignored) ... ok
+test_unchanged (test_main.IntegrityTests.test_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.007s
+
+OK

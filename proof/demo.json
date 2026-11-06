@@ -1,0 +1,11 @@
+{
+  "added": [
+    "new.txt"
+  ],
+  "removed": [
+    "obsolete.txt"
+  ],
+  "modified": [
+    "config.ini"
+  ]
+}

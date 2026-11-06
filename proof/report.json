@@ -1,0 +1,14 @@
+{
+  "executed_at_utc": "2026-11-06T07:29:03.898732+00:00",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "tests_exit_code": 0,
+  "demo_exit_code": 0,
+  "demo_command": [
+    "python",
+    "main.py",
+    "demo"
+  ],
+  "scope": "Local synthetic fixtures; no remote security assessment",
+  "ci_status": "Not asserted by this local report"
+}

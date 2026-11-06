@@ -1,0 +1,20 @@
+name: Reproducible proof
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python scripts/prove.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: proof-${{ matrix.python }}
+          path: proof/
